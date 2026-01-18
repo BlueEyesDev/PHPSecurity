@@ -1,4 +1,4 @@
 RewriteEngine On
 
 RewriteCond %{REQUEST_URI} \.svg$ [NC]
-RewriteRule ^(?:.*/)?([^/]+)\.svg$ /protectsvg.php?svg=$1 [R=301,L]
+RewriteRule ^(?:.*/)?([^/]+)\.svg$ /svgprotect.php?svg=$1 [R=301,L]
